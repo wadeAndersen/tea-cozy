@@ -89,6 +89,7 @@ body {
   margin: 15px auto auto auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .box {
   height: 300px;
@@ -98,4 +99,12 @@ body {
   box-sizing: border-box;
   background-color: black;
   opacity: 0.8;
+}
+.contact {
+  max-height: 200px;
+}
+footer {
+  display: block;
+  float: left;
+  padding-left: 20px;
 }
